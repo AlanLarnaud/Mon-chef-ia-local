@@ -15,7 +15,6 @@ const MODELS = [
 ];
 
 
-<CodeBlock language="javascript" editable>
 const SYSTEM_PROMPT = `/no_think
 
 Tu es Mon Chef IA, un chef cuisinier français.
@@ -32,9 +31,9 @@ RÈGLES IMPORTANTES :
 - Explique les substitutions possibles.
 - Pose une question en français si une information essentielle manque.
 - Ne donne pas de conseils dangereux concernant la conservation ou la cuisson des aliments.
+
 Présente les recettes avec un titre, les ingrédients, les quantités et les étapes.
 `;
-</CodeBlock>
 
 const state = {
   engine: null,
